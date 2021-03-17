@@ -39,7 +39,7 @@ if __name__ == "__main__":
         arducam_vcm.vcm_init()
     #open camera
 	camera = picamera.PiCamera()
-	
+
         #open camera preview
 	camera.start_preview()
 	#set camera resolution to 640x480(Small resolution for faster speeds.)
