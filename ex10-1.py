@@ -1,6 +1,6 @@
 import cv2
 
-o = cv2.imread('yuko.jpg', cv2.IMREAD_GRAYSCALE)
+o = cv2.imread('yuko2.jpg', cv2.IMREAD_GRAYSCALE)
 
 r1 = cv2.Canny(o, 128, 200)
 r2 = cv2.Canny(o, 32, 128)
